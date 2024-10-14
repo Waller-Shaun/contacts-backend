@@ -1,16 +1,24 @@
 {
-  "name": "backend",
+  "name": "contacts-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Shuchang_Zhang",
+  "license": "MIT",
+  "description": "A Node.js backend for managing contacts",
   "dependencies": {
     "express": "^4.21.1",
     "mysql2": "^3.11.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waller-Shaun/contacts-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Waller-Shaun/contacts-backend/issues"
+  },
+  "homepage": "https://github.com/Waller-Shaun/contacts-backend#readme"
 }
